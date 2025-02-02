@@ -26,6 +26,8 @@ Este proyecto es una aplicación web de React que permite a los usuarios subir, 
 * React Hook Form
 * Axios
 
+---
+
 ## Instalación y ejecución
 
 Para instalar y ejecutar el proyecto, sigue los siguientes pasos:
@@ -33,8 +35,7 @@ Para instalar y ejecutar el proyecto, sigue los siguientes pasos:
 * Clona el repositorio
 * Instala las dependencias con ``npm install`` o ``yarn install``
 * Ejecuta el proyecto con ``npm run dev`` o ``yarn dev``
-
-## Clonar el repositorio y poner la ip correcta en axios.ts
+* Poner la ip correcta en axios.ts
 
  ```bash
 const api = axios.create({
