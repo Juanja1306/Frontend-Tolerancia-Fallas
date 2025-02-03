@@ -8,7 +8,7 @@ export default function Header() {
                 <div className={styles.cont__header}>
                     <div className={styles.title}>
                         <Link to='/' className={styles.nav_link} onClick={() => localStorage.clear()}>
-                            <h1>Practica Virtualizacion</h1>
+                            <h1>Practica de Tolerancia a Fallas</h1>
                         </Link>
                     </div>
                     <nav className={styles.cont__nav__a + " " + styles.nav}>
